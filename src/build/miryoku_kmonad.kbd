@@ -6,7 +6,7 @@
        
        
 (defcfg
-  input (device-file "keyboard")
+  input (device-file "/dev/input/event3")
   output (uinput-sink "Miryoku KMonad output")
   fallthrough true
 )
