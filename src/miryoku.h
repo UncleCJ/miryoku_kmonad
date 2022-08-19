@@ -14,7 +14,7 @@
 #define U_NA XX // present but not available for use
 #define U_NU XX // available but not used
 
-#define U_TAPPING_TERM 200
+#define U_TAPPING_TERM 600
 
 #if defined (MIRYOKU_CLIPBOARD_FUN)
   #define U_RDO again
