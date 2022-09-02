@@ -6,8 +6,8 @@
        
        
 (defcfg
-  input (device-file "keyboard")
-  output (uinput-sink "Miryoku KMonad output")
+  input (low-level-hook)
+  output (send-event-sink)
   fallthrough true
 )
 (defsrc
